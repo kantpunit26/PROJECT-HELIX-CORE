@@ -9,6 +9,7 @@ Clean, light, professional, and bi-directional DNA data storage interface:
 import http.server
 import json
 import math
+import os
 from pathlib import Path
 import re
 import socketserver
@@ -21,7 +22,7 @@ from helix_core.obfuscation import BiologicalObfuscator, ConstraintValidator
 from helix_core.pipeline import HelixPipeline
 from helix_core.translation import DnaTranslator
 
-PORT = 8080
+PORT = int(os.environ.get("PORT", 8080))
 BASE_DIR = Path(__file__).resolve().parent
 UPLOADS_DIR = BASE_DIR / "dashboard_storage" / "uploads"
 EXPORTS_DIR = BASE_DIR / "dashboard_storage" / "exports"

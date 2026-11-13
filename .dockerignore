@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+.venv
+venv
+.idea
+.vscode
+dashboard_storage/uploads/*
+!dashboard_storage/uploads/.gitkeep
+dashboard_storage/recovered/*
+!dashboard_storage/recovered/.gitkeep
+autonomous_*.txt
+decoded_from_*.bin
