@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Dashboard Storage: Ignore dynamic user uploads and outputs, retain structure
+dashboard_storage/uploads/*
+!dashboard_storage/uploads/.gitkeep
+dashboard_storage/recovered/*
+!dashboard_storage/recovered/.gitkeep
+dashboard_storage/exports/*
+!dashboard_storage/exports/.gitkeep
+
+# Local run/test artifacts
+autonomous_*.txt
+decoded_from_*.bin
+recovered_*
+
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

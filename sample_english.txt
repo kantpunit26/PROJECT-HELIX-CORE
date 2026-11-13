@@ -1,0 +1,4 @@
+Hello World! This is an official DNA data storage test using HELIX-CORE.
+Everything should be restored in clear, plain English without Chinese characters or corruption.
+Verification confirms 100% bit-perfect fidelity.
+
